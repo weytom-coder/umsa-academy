@@ -98,3 +98,9 @@ text-align: center;
 padding: 20px;
 margin-top: 40px;
 }
+
+.lesson-link {
+text-decoration: none;
+color: inherit;
+display: block;
+}
