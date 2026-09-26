@@ -100,3 +100,30 @@ display: block;
 .lesson-link:hover .lesson-card {
 transform: translateY(-2px);
 }
+
+.section-title {
+color: #222;
+margin-top: 40px;
+margin-bottom: 15px;
+border-bottom: 3px solid #ffd500;
+padding-bottom: 8px;
+}
+ 
+.quiz-card {
+background: #eef5ff;
+border-radius: 12px;
+padding: 20px;
+margin-bottom: 20px;
+}
+ 
+.mission-card {
+background: #eaf7ef;
+border-radius: 12px;
+padding: 20px;
+margin-bottom: 20px;
+}
+ 
+.next-lesson {
+text-align: center;
+margin-top: 40px;
+}
