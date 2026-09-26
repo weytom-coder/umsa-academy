@@ -96,3 +96,7 @@ text-decoration: none;
 color: inherit;
 display: block;
 }
+ 
+.lesson-link:hover .lesson-card {
+transform: translateY(-2px);
+}
