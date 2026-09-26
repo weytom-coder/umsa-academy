@@ -90,3 +90,11 @@ transform: translateY(-2px);
 .lesson-card a {
 font-weight: bold;
 }
+
+footer {
+background: #222;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+}
