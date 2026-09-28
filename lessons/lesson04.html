@@ -33,85 +33,191 @@ Lektion 4 von 14
 
     <a href"index.html">← Zurück zur Übersicht</a>
 
-    <h2>Lektionname</h2>
+    <h2>Lektion 4: Systemlandkarte</h2>
 
 <h2 class="section-title">🎯 Lernziel</h2>
 <div class="lesson-card">
 <p>
-Um was geht es hier
+Die wichtigsten Systeme im UMSA-Prozess verstehen.
+ <p></p>
+Den Datenfluss zwischen den Systemen erklären.
+ <p></p>
+Kundenwirkung und technische Verarbeitung miteinander verbinden.
 </p>
 </div>
 
 <h2 class="section-title">📘 Lernkarten</h2>
 
 <div class="lesson-card">
-<h3>📘 Lernkarte 1?</h3>
+<h3>📘 Die Systemlandkarte als Datenfluss</h3>
 <p>
-xxx
+Entscheidend ist nicht das einzelne System.<br>
+Entscheidend ist der End-to-End-Datenfluss:
+<ul>
+    <li>- Wo entsteht die Information?</li>
+    <li>- Wohin wird sie weitergegeben?</li>
+    <li>- Welches System verarbeitet sie?</li>
+    <li>- Welche Kundenwirkung entsteht?</li>
+</ul> 
+
+
 </p>
 </div>    
 
 <div class="lesson-card">
-<h3>📘 Lernkarte 2?</h3>
+<h3>📘 ISLK und PTA</h3>
 <p>
-xxx
+ISLK enthält das Inventar der Copper-Leitungen.
+ <p></p>
+PTA beziehungsweise NC-FUF enthält Kabel- und Netzinformationen.
+ <p></p>
+Diese Systeme bilden wichtige Grundlagen für Planung und Zuordnung.
 </p>
 </div> 
 
 <div class="lesson-card">
-<h3>📘 Lernkarte 3</h3>
+<h3>📘 NOVIS und UnityDB</h3>
 <p>
-xxx
+NOVIS beziehungsweise UnityDB bildet den UMSA-Prozess ab.
+ <p></p>
+Dort werden Planung, Termine und Maintenance Tickets verwaltet.
+ <p></p>
+NOVIS ist die Grundlage für viele nachgelagerte Prozesse.
 </p>
 </div>    
 
+    <div class="lesson-card">
+<h3>📘 Netcracker CIA</h3>
+<p>
+Netcracker CIA übernimmt Informationen aus dem UMSA-Prozess.<br>
+Dort werden:
+ <ul>
+     <li>- Reason IDs</li>
+     <li>- CAF Rules</li>
+     <li>- Kundeninformationen</li>
+ </ul>
+
+miteinander verknüpft.<br> 
+Die geplante Kundenkommunikation wird gesteuert.
+</p>
+</div> 
+
+    <div class="lesson-card">
+<h3>📘 SEO</h3>
+<p>
+SEO liefert Events sowie Plan- und Ist-Werte.<br>
+Durch SEO können folgende Fragen beantwortet werden:
+ <ul>
+     <li>- Wann war der Eingriff geplant?</li>
+     <li>- Wann wurde er durchgeführt?</li>
+     <li>- Welche Abweichungen sind sichtbar?</li>
+ </ul>
+
+</p>
+</div> 
+
+    <div class="lesson-card">
+<h3>📘 ComHub</h3>
+<p>
+Mit dem effektiven UMSA-Start wechselt die Kommunikation zu ComHub.<br>
+ComHub übernimmt:
+ <ul>
+     <li>- Verzögerungen</li>
+     <li>- Sync NOK</li>
+     <li>- Statusänderungen</li>
+     <li>- Abschlussmeldungen</li>
+ </ul>
+
+</p>
+</div> 
+
+    <div class="lesson-card">
+<h3>📘 INES</h3>
+<p>
+INES wird verwendet um zu kontrollieren, ob Kundinnen und Kunden korrekt benachrichtigt wurden.
+ <p></p>
+Damit verbindet INES den technischen Prozess mit einer Qualitätskontrolle aus Kundensicht.
+</p>
+</div> 
+
+    <div class="lesson-card">
+<h3>📘 System-Scout-Mission</h3>
+<p>
+Plain Text
+Suche einen realen UMSA-Fall.<br> 
+Verfolge ihn durch mindestens vier Systeme.
+ <p></p>
+Dokumentiere:
+ <ul>
+     <li>- Input</li>
+     <li>- Verarbeitung</li>
+     <li>- Output</li>
+     <li>- Kundenwirkung</li>
+ </ul>
+</p>
+</div> 
 
 <h2 class="section-title">🧠 Wissenscheck</h2>
     
 <div class="quiz-card">
 <h3>Frage 1</h3>
-<p>Wer verantwortet die technische Umsetzung einer UMSA?</p>
+<p>Welches System bildet den UMSA-Prozess und das Maintenance Ticket ab?</p>
 <ul>
-<li>A) B2C</li>
-<li><strong>B) INI ✅</strong></li>
-<li>C) Call Center</li>
+<li>A) SEO</li>
+<li><strong>B) NOVIS resp.UnityDB ✅</strong></li>
+<li>C) ComHub</li>
 <li>D) MySwisscom</li>
 </ul>
+    Erklärung:<br>
+NOVIS beziehungsweise UnityDB bildet den UMSA-Prozess ab und verwaltet das Maintenance Ticket.
 </div>
 
 <div class="quiz-card">
 <h3>Frage 2</h3>
-<p>Was ist die Hauptaufgabe von B2C?</p>
+<p>Welches System übernimmt die Live-Kommunikation?</p>
 <ul>
-<li>A) Die physische Veränderung des Netzes</li>
-<li>B) Die technische Freigabe aller Netzarbeiten</li>
-<li><b>C) Die passende Begleitung der Kundinnen und Kunden ✅</b></li>
-<li>D) Den Austausch sämtlicher Netzkomponenten</li>
+<li>A) NC-CIA</li>
+<li>B) PTA</li>
+<li><b>C) ComHub ✅</b></li>
+<li>D) ISLK</li>
 </ul>
+    Erklärung:<br>
+Mit dem effektiven UMSA-Start erfolgt das Handover zu ComHub.
 </div>
 
 <div class="quiz-card">
 <h3>Frage 2</h3>
-<p>Was beschreibt UMSA am Besten?</p>
+<p>Welche drei Fragen gehören an jede Systemschnittstelle?</p>
 <ul>
-<li>A) Die physische Veränderung des Netzes</li>
-<li>B) Die technische Freigabe aller Netzarbeiten</li>
-<li><b>C) Die passende Begleitung der Kundinnen und Kunden ✅</b></li>
-<li>D) Den Austausch sämtlicher Netzkomponenten</li>
+<li>A) Zugriff, Kosten, Freigabe</li>
+<li>B) Ursprung, Weitergabe, Kundenwirkung</li>
+<li><b>C) Baujahr, Betreiber, Ablösung ✅</b></li>
+<li>D) Maske, Farbe, Benutzerrolle</li>
 </ul>
+    Erklärung:<br>
+Diese drei Fragen helfen, den End-to-End-Datenfluss zu verstehen.
 </div>
     
 
 <h2 class="section-title">🚀 Mini Mission</h2>
 <div class="mission-card">
 <p>
-Erkläre UMSA in maximal 30 Sekunden, ohne einen einzigen Systemnamen zu verwenden.
-Verwende:
-    <ul>
-<li>keinen Systemnamen</li>
-<li>keine Abkürzungen</li>
-<li>3 Sätze</li>
-</ul>
+Zeichne eine einfache UMSA-Systemlandkarte.<br> 
+ISLK/PTA<br>
+↓<br>
+NOVIS<br>
+↓<br>
+NC-CIA<br>
+↓<br>
+SEO<br>
+↓<br>
+ComHub
+    <p></p>
+Notiere bei jedem Übergang:
+ <p></p>
+- Welche Daten übergeben werden<br>
+- Wer die Information nutzt<br>
+- Welche Kundenwirkung entsteht    
 </p>
 </div>
 
@@ -120,6 +226,7 @@ Verwende:
 <div class="next-lesson">
 <a href="lesson03.html">⬅️ Zurück zu Lektion 3</a>
 <br><br>
+    🎉 Grundlagen abgeschlossen<br>
 <a href="../usecases.html"> ➡️ Weiter zu 🧩 Weiter zu den Praxisfällen</a>
 </div>
     
