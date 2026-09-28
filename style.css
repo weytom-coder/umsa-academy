@@ -1,13 +1,26 @@
+:root {
+ 
+--sc-yellow: #FFD500;
+--sc-dark: #1F1F1F;
+ 
+--sc-bg: #F7F8FA;
+--sc-card: #FFFFFF;
+ 
+--sc-blue: #0066CC;
+ 
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f5f5f5;
+font-family: "Segoe UI", Aptos, sans-serif;
+margin: 0;
+background: var(--sc-bg);
+color: var(--sc-dark);
 }
 
 header {
-    background: #ffd500;
-    color: #000;
-    padding: 30px;
+background: white;
+padding: 60px 30px;
+border-bottom: 6px solid var(--sc-yellow);
 }
 
 main {
@@ -43,18 +56,22 @@ a {
 
 nav {
 background: white;
-padding: 12px 20px;
+padding: 20px 40px;
+border-bottom: 1px solid #E5E5E5;
+position: sticky;
+top: 0;
+z-index: 100;
 }
  
 nav a {
-color: white;
 text-decoration: none;
-margin-right: 20px;
-font-weight: bold;
+color: var(--sc-dark);
+margin-right: 25px;
+font-weight: 600;
 }
  
 nav a:hover {
-color: #ffd500;
+color: var(--sc-blue);
 }
 
 .container {
@@ -69,10 +86,11 @@ margin-top: 0;
 
 .lesson-card {
 background: white;
-border-radius: 12px;
-padding: 20px;
-margin-bottom: 20px;
-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+border-radius: 18px;
+padding: 24px;
+margin-bottom: 24px;
+box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+border-left: 6px solid var(--sc-yellow);
 }
  
 .lesson-card:hover {
