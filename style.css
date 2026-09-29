@@ -33,7 +33,7 @@ background: linear-gradient(
 #FFE560
 );
  
-min-height: 180px;
+min-height: 90px;
 display: flex;
 align-items: center;
 }
@@ -41,7 +41,7 @@ align-items: center;
 .hero-content {
 max-width: 1100px;
 margin: auto;
-padding: 20px 40px;
+padding: 10px 40px;
 }
 .hero h1 {
 font-size: 4rem;
