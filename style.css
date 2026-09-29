@@ -186,3 +186,17 @@ border-radius: 14px;
 text-decoration: none;
 font-weight: bold;
 }
+
+.progress-bar {
+background: #E5E5E5;
+height: 12px;
+border-radius: 20px;
+margin-top: 10px;
+}
+
+.progress-fill {
+background: #FFD500;
+height: 12px;
+width: 71%;
+border-radius: 20px;
+}
