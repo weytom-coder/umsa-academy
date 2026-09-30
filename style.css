@@ -193,3 +193,11 @@ height: 12px;
 width: 71%;
 border-radius: 20px;
 }
+
+.academy-tag {
+color: #666;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 0.8rem;
+font-weight: 600;
+}
