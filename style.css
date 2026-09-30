@@ -17,6 +17,9 @@ header {
 background: transparent;
 border-bottom: none;
 padding: 0;
+position: sticky;
+top: 0;
+z-index: 100;
 }
 
 .hero {
@@ -189,8 +192,4 @@ background: #FFD500;
 height: 12px;
 width: 71%;
 border-radius: 20px;
-}
-
-.hero-card {
-margin-top: 0;
 }
