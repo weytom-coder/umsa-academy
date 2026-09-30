@@ -76,9 +76,6 @@ nav {
 background: white;
 padding: 20px 40px;
 border-bottom: 1px solid #E5E5E5;
-position: sticky;
-top: 0;
-z-index: 100;
 }
  
 nav a {
