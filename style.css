@@ -210,3 +210,19 @@ gap: 20px;
 margin-top: 20px;
 flex-wrap: wrap;
 }
+
+.timeline-step {
+flex: 1;
+min-width: 120px;
+text-align: center;
+background: white;
+border-radius: 16px;
+padding: 20px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+border-top: 5px solid #FFD500;
+}
+
+.timeline-step h3 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
