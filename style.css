@@ -231,3 +231,27 @@ margin-bottom: 10px;
 font-size: 2rem;
 color: #FFD500;
 }
+
+.system-map {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+margin-top: 20px;
+}
+
+.system-box {
+width: 260px;
+text-align: center;
+padding: 20px;
+background: white;
+border-radius: 16px;
+border-left: 6px solid #FFD500;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+font-weight: 600;
+}
+
+.system-arrow {
+font-size: 2rem;
+color: #FFD500;
+}
