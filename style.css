@@ -201,3 +201,12 @@ letter-spacing: 2px;
 font-size: 0.8rem;
 font-weight: 600;
 }
+
+.timeline {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+margin-top: 20px;
+flex-wrap: wrap;
+}
