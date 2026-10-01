@@ -226,3 +226,8 @@ border-top: 5px solid #FFD500;
 font-size: 2rem;
 margin-bottom: 10px;
 }
+
+.timeline-arrow {
+font-size: 2rem;
+color: #FFD500;
+}
